@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFC.SQLite", "EFC.SQLite\EFC.SQLite.csproj", "{0A24E870-83CE-4DFA-9175-9AC10D24DE0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFC.MSSQL", "EFC.MSSQL\EFC.MSSQL.csproj", "{8A422FCC-AAC2-4F63-BF8B-4C814AF31D68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFC.PGSql", "EFC.PGSql\EFC.PGSql.csproj", "{DBB77A4F-C400-40A7-AF0D-83B036513EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFC.Database", "DbContext\EFC.Database.csproj", "{6D999F4C-42CB-473E-B58D-780C5999B59A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFC.DataBase.SQLite", "EFC.DataBase.SQLite\EFC.DataBase.SQLite.csproj", "{A5D09C83-79AD-420A-B8BC-E16F03DA1A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFC.MySql", "EFC.MySql\EFC.MySql.csproj", "{76AE686A-5C5D-4262-B738-9C482532BC8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A24E870-83CE-4DFA-9175-9AC10D24DE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A24E870-83CE-4DFA-9175-9AC10D24DE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A24E870-83CE-4DFA-9175-9AC10D24DE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A24E870-83CE-4DFA-9175-9AC10D24DE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A422FCC-AAC2-4F63-BF8B-4C814AF31D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A422FCC-AAC2-4F63-BF8B-4C814AF31D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A422FCC-AAC2-4F63-BF8B-4C814AF31D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A422FCC-AAC2-4F63-BF8B-4C814AF31D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB77A4F-C400-40A7-AF0D-83B036513EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB77A4F-C400-40A7-AF0D-83B036513EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB77A4F-C400-40A7-AF0D-83B036513EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB77A4F-C400-40A7-AF0D-83B036513EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D999F4C-42CB-473E-B58D-780C5999B59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D999F4C-42CB-473E-B58D-780C5999B59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D999F4C-42CB-473E-B58D-780C5999B59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D999F4C-42CB-473E-B58D-780C5999B59A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D09C83-79AD-420A-B8BC-E16F03DA1A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D09C83-79AD-420A-B8BC-E16F03DA1A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D09C83-79AD-420A-B8BC-E16F03DA1A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D09C83-79AD-420A-B8BC-E16F03DA1A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AE686A-5C5D-4262-B738-9C482532BC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AE686A-5C5D-4262-B738-9C482532BC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AE686A-5C5D-4262-B738-9C482532BC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AE686A-5C5D-4262-B738-9C482532BC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13DE60F6-0D4D-4EB5-862A-95DF77B2E131}
+	EndGlobalSection
+EndGlobal
