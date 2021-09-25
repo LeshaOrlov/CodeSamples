@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>EFC.Infrastructure</AssemblyName>
+    <RootNamespace>EFC.Infrastructure</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

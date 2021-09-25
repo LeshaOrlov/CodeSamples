@@ -1,5 +1,5 @@
 ﻿using EFC.Database.Models;
-using EFC.Database.SQLite;
+using EFC.SQLite.Models;
 using System;
 using System.Linq;
 using System.Reflection.Metadata;

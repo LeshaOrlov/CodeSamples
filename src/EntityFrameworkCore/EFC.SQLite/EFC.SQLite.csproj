@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EFC.DataBase.SQLite\EFC.DataBase.SQLite.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DbContext\EFC.Database.csproj" />
   </ItemGroup>
 
   <ItemGroup>
