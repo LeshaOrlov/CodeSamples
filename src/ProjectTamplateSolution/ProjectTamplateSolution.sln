@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleProjectTamplate", "ConsoleProjectTamplate\ConsoleProjectTamplate.csproj", "{FF9E9E17-9C04-40A0-9922-55CEA459AC45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebAPIProjectThamplate", "SimpleWebAPIProjectThamplate\SimpleWebAPIProjectThamplate.csproj", "{50F3853D-7C72-43BE-B1AE-6724CBDC7903}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MongoWebAPIProject", "MongoWebAPIProject\MongoWebAPIProject.csproj", "{8195DEB2-B9A2-4F6F-B6B4-9081A37FFC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreWebApi", "PostgreWebApi\PostgreWebApi.csproj", "{EEF62D4A-DFC6-4009-A948-9EF41984C27B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF9E9E17-9C04-40A0-9922-55CEA459AC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9E9E17-9C04-40A0-9922-55CEA459AC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9E9E17-9C04-40A0-9922-55CEA459AC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9E9E17-9C04-40A0-9922-55CEA459AC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F3853D-7C72-43BE-B1AE-6724CBDC7903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F3853D-7C72-43BE-B1AE-6724CBDC7903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F3853D-7C72-43BE-B1AE-6724CBDC7903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F3853D-7C72-43BE-B1AE-6724CBDC7903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8195DEB2-B9A2-4F6F-B6B4-9081A37FFC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8195DEB2-B9A2-4F6F-B6B4-9081A37FFC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8195DEB2-B9A2-4F6F-B6B4-9081A37FFC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8195DEB2-B9A2-4F6F-B6B4-9081A37FFC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF62D4A-DFC6-4009-A948-9EF41984C27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF62D4A-DFC6-4009-A948-9EF41984C27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF62D4A-DFC6-4009-A948-9EF41984C27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF62D4A-DFC6-4009-A948-9EF41984C27B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00AF1942-7B2E-45AC-841B-1E5B1DA1B37F}
+	EndGlobalSection
+EndGlobal

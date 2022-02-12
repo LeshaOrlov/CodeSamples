@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerApp", "IdentityServerApp\IdentityServerApp.csproj", "{1ADF35A5-DC5E-4B80-BA8F-1558005B4303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{F7EE3248-DEC4-450B-8AC2-5263F171EDA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{D81FD4C1-0E38-4DD2-94B2-D73D63A4D861}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ADF35A5-DC5E-4B80-BA8F-1558005B4303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADF35A5-DC5E-4B80-BA8F-1558005B4303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADF35A5-DC5E-4B80-BA8F-1558005B4303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADF35A5-DC5E-4B80-BA8F-1558005B4303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EE3248-DEC4-450B-8AC2-5263F171EDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EE3248-DEC4-450B-8AC2-5263F171EDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EE3248-DEC4-450B-8AC2-5263F171EDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EE3248-DEC4-450B-8AC2-5263F171EDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81FD4C1-0E38-4DD2-94B2-D73D63A4D861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81FD4C1-0E38-4DD2-94B2-D73D63A4D861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81FD4C1-0E38-4DD2-94B2-D73D63A4D861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81FD4C1-0E38-4DD2-94B2-D73D63A4D861}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E95A0B82-6511-4B65-9CCB-A992D660DCA4}
+	EndGlobalSection
+EndGlobal

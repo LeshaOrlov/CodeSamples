@@ -1,0 +1,20 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+package fileservice;
+
+service fileService {
+  // Sends a greeting
+  rpc TakeFile (FileRequest) returns (FileReply);
+}
+
+// The request message containing the user's name.
+message FileRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message FileReply {
+  string message = 1;
+}

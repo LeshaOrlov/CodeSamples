@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  webapi:
+    environment:
+    - ASPNETCORE_ENVIRONMENT=Development
+    build:
+      context: ./
+      dockerfile: ./WebApiApp/Dockerfile
+    ports:
+    - "5000:80"
+    - "5001:443"
